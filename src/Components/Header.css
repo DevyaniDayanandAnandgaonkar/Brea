@@ -1,0 +1,185 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* desinging first column */
+.topNav{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 50px; 
+    border-bottom: 1px solid rgb(245, 222, 225);
+}
+.top-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topNav-top-left-para>p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.topNav-top-left-button>button{
+    border-radius: 20px;
+    background-color:  #ff5d91;
+    border: 1px solid  #ff5d91;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 3px 7px 4px 7px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+.top-Right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rightInfo{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 5px;
+}
+.rightInfo> li{
+    padding: 4px 4px 2px 4px;
+    border-radius: 50%;
+    line-height: 14px;
+    background-color:#ff5d91;
+    border: 1px solid #ff5d91;
+    color: white;
+    font-size: 14px;
+  
+}
+/* User Account Designing */
+.myAcc{
+    display: flex;
+    align-items: center; 
+    margin-left: 20px; 
+}
+.myAcc>span{
+    color:#ff5d91;
+}
+.myAcc>h3{
+    color: black;
+    font-size: 14px;
+}
+
+/* Designing mid nav items */
+
+.midNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    border-bottom: 1px solid rgb(245, 222, 225);
+    margin: 0px;
+}
+.leftInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.LFborder{
+    border-right: 1px solid rgb(198, 198, 198);
+    padding-right: 15px;
+}
+.leftInfo-sub>h3{
+    color: black;
+    font-size: 15px;
+}
+
+/* designing Logo */
+#header-logo{
+    height: 80px;
+    width: 80px;
+}
+.new-icons{
+    display: flex;
+    gap:25px;
+    color: #ff5d91; 
+}
+.new-icons>li{
+    font-size: 20px;
+}
+
+/* Designing Navabar */
+.bottomMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0 4px 0;
+}
+.list-menu{
+    border-right: 1px solid rgb(253, 219, 219);
+    padding: 5px 10px 5px 10px;
+}
+.noBorder{
+    border-right: 1px solid rgb(255, 255, 255);
+    
+}
+#newLi-1 , #newLi-2 ,#newLi-3 ,#newLi-4 {
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    color: #f8024c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Designing sub Mennu Items */
+.categoriesSubMenu{
+
+
+    cursor: pointer;
+ 
+    /* width: 10rem; */
+    position: absolute;
+    text-align: start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 22.1%;
+    left: 31%;
+
+    
+}
+.categoriesSubMenu>li{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+.categoriesSubMenu>li:hover{
+    background-color: #ff5d91;
+
+}
+.navSubItems{
+    text-decoration: none;
+    color:  #f8024c;
+    display: block;
+    width: auto;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navSubItems:hover{
+    color: white;
+}
+.categoriesSubMenu.clicked{
+    display: none;
+}
+
+/* Adding Counts in countMe */
+.countMe{
+    position: absolute;
+    /* top: 5%; */
+    right: 45px;
+    top: 50px
+}
+
+
+
+

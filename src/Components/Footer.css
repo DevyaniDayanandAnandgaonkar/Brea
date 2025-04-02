@@ -1,0 +1,108 @@
+.FooterSection{
+    display : flex;
+    flex-direction: column;
+    justify-content: center; 
+   align-self: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0px;
+ 
+}
+.FooterWrapper{
+    display: flex;
+   
+    /* width: 100%; */
+    padding: 20px 50px 20px 50px  ;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: white;
+    border-bottom: 1px solid rgb(192, 192, 192);
+  
+   
+}
+
+.FooterSect1 , .FooterSect2 , .FooterSect3 , .FooterSect4, .FooterSect5{
+    display: flex;
+    flex-direction: column;
+   /* align-items: center ;  */
+   /* align-self: first baseline; */
+ 
+   width: 100%;
+  
+   padding: 2px 5px 2px 5px;
+   /* text-align: start; */
+}  
+.FooterSect1 {
+    align-self: center;
+    text-align: center;
+    /* width: 40%; */
+    
+}
+/* .FooterSect2 , .FooterSect3, .FooterSect4 {
+    width: 70%;
+}
+.FooterSect5 {
+    width: 70%;
+} */
+
+
+img{
+    width: 100px;
+    height: 100px;
+   
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff5d91;
+    padding: 5px 0 10px 0;
+  
+ 
+    
+}
+
+li{
+    list-style-type: none;
+    font-size: 15px;
+   
+    line-height: 18px;
+    padding: 5px 0 5px 0;
+    
+}
+.span{
+    font-weight: 600;
+}
+.SocialMedia{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+.SocialMedia> li{
+ 
+    padding: 4px 4px 0 4px;
+    border-radius: 50%;
+    align-self: center;
+    line-height: 18px;
+    font-size: 14px;
+    margin: 0 2px 0 2px;
+    background-color:#f8024c;
+    border: 1px solid #f8024c;
+}
+.CopyRight{
+    text-align: center;
+    padding: 15px 0 15px 0;
+    font-size: 14px;
+}
+/* 
+Designing Footer Links */
+
+.F-Links{
+    text-decoration: none;
+    color: white;
+    
+}
+#vm3Link{
+    color: #ff5d91;
+    text-decoration: none;
+}

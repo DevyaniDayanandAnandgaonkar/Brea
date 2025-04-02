@@ -1,0 +1,197 @@
+/* Designing Home Banner Page */
+.HomeBannerFirst{
+   /* width: 100%;
+   flex-wrap: wrap;
+   margin-bottom: 50px; */
+   position: relative; /* Make it a reference point for absolute positioning */
+   background-image: url("./HomeBanner.jpg"); 
+   background-size: cover; 
+   background-position: center; 
+   height: 75vh; 
+   margin-bottom: 50px;
+}
+.HomeBanner{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    /* position: relative;  */
+
+    /* background-size: cover; 
+    background-position: center; 
+    height: 75vh; 
+    margin-bottom: 50px; */
+ }
+.HomeBanner>img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+   
+}
+/* Designing Banner below Section */
+.cat-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+.category-h1>h1{
+    font-size: 50px;
+    color: #f8024c;
+    font-weight: 700;
+    text-shadow:1px 1px 2px #f8024c;
+}
+.items{
+    margin-top: 25px;
+    display: flex;
+    padding: 20px 0 20px 0;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box-products{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #f92e6f;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    flex-wrap: wrap;
+    margin: 0px 10px 0 10px;
+}
+.box-products>img {
+    width: 320px;
+    height: 200px;
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+    padding: 0px;
+    margin: 0px;
+    object-fit: cover;
+}
+.box-products>h2{
+    font-size: 22px;
+    padding: 10px 0 10px 0;
+    background-color:  #f92e6f;
+    color: white;
+    font-weight: 700;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    }
+.Box-Productsa-H2{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* designing Templates section */
+.TabInfo{
+    margin-top: 100px;
+    border-top: 2px solid  #f8024c;
+    margin: 70px 150px 0 150px;
+
+}
+.Templates{
+    display: flex;
+    justify-content:center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 600;
+   border-top:2px solid  #f8024c;
+    
+}
+.temp1, .temp2, .temp3{
+    border: 1px solid #f8024c;
+    padding: 8px 15px 8px 15px;
+    border-radius: 2px;
+    margin-top: -25px;
+    z-index: 100;
+    background-color: white;
+    
+}
+.temp1{
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+.temp3{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.temp2{
+    background-color: #f8024c;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: white;
+}
+
+.HomeBannerBlog{
+    position: relative; /* Make it a reference point for absolute positioning */
+    background-image: url("/BannerForBlogsHome.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    height:60vh; 
+    margin-bottom: 50px;
+
+}
+/* Designing Home Blog Section */
+/* .HomeBannerBlog>img{
+    max-height: 450px;
+} */
+.HomeBlogs{
+    display: flex;
+    flex-direction: column;
+    background-color: #fef5f8;
+    margin-bottom: 50px;  
+}
+.HomeBlogs>h2{
+    color: #f8024c;
+    padding-top: 20px; 
+}
+.HomeBlogsnew{
+    border-bottom: 2px solid #f6e7eb;
+    margin: 0 5px 0 5px ;
+}
+
+
+/* designing Newsletter Section */
+.NewsletterWrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  
+}
+.NewsletterWrapper>h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #4e0216;
+}
+.NewsletterWrapper>p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(55, 55, 55);
+    margin-bottom: 20px;
+}
+.newsInput{
+    margin-bottom: 70px;
+}
+.newsInput>input{
+    padding: 15px 420px 15px 20px;
+    border:1px solid #f8024c;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+    font-size: 16px;
+}
+.newsInput>button{
+    padding: 15px 60px 15px 60px;
+    border:1px solid #f8024c;
+    background: #f8024c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+
+}
