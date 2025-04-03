@@ -1,51 +1,48 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { 
-  FaYoutube, FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, 
-  FaUserGroup, FaMagnifyingGlass, FaHeart, FaCartShopping 
+import { FaYoutube, FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, FaUserGroup, FaMagnifyingGlass, FaHeart, FaCartShopping 
 } from "react-icons/fa6";
 import { MdArrowDropDown } from "react-icons/md";
 import "./Header.css";
 
 
-
 const Header = () => {
 
-  const navigate = useNavigate();
+const navigate = useNavigate();
 
-  const [dropDown, setDropDown] = useState(false); //
+const [dropDown, setDropDown] = useState(false); //
 
-  function handleClick() {
+function handleClick() {
     navigate("/ContactUs");
-  }
+}
 
-  const categoriesDropdown = [
-    { id: 1, title: "Mangalsutra", path: "/Mangalsutra", cName: "navSubItems" },
-    { id: 2, title: "Chain-Pendants", path: "/ChainPendants", cName: "navSubItems" },
-    { id: 3, title: "Tops", path: "/Tops", cName: "navSubItems" }
+const categoriesDropdown = [
+  { id: 1, title: "Mangalsutra", path: "/Mangalsutra", cName: "navSubItems" },
+  { id: 2, title: "Chain-Pendants", path: "/ChainPendants", cName: "navSubItems" },
+  { id: 3, title: "Tops", path: "/Tops", cName: "navSubItems" }
   ];
 
-  return (
-    <div>
-      <nav className="header">
-        <div className="topNav">
-          <div className="top-left topNav-top-left-button" >
-            <p>Free shipping on all orders above Rs. 499</p>
-            <button onClick={handleClick} >Enquiry</button>
+return (
+  <div>
+    <nav className="header">
+    <div className="topNav">
+      <div className="top-left topNav-top-left-button" >
+          <p>Free shipping on all orders above Rs. 499</p>
+          <button onClick={handleClick} >Enquiry</button>
+      </div>
+      <div className="top-Right">
+          <div className="rightInfo">
+            <li><FaFacebookF /></li>
+            <li><FaTwitter /></li>
+            <li><FaLinkedinIn /></li>
+            <li><FaInstagram /></li>
+            <li><FaYoutube /></li>
           </div>
-          <div className="top-Right">
-            <div className="rightInfo">
-              <li><FaFacebookF /></li>
-              <li><FaTwitter /></li>
-              <li><FaLinkedinIn /></li>
-              <li><FaInstagram /></li>
-              <li><FaYoutube /></li>
-            </div>
-            <div className="myAcc">
-              <span><FaUserGroup /></span><h3>My Account</h3>
-            </div>
+          <div className="myAcc">
+            <span><FaUserGroup /></span><h3>My Account</h3>
           </div>
         </div>
+      </div>
 
         <div className="midNav">
           <div className="leftInfo">
