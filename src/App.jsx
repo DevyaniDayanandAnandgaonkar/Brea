@@ -26,19 +26,20 @@ const App = () => {
     <Router>
       <>
         <Header />
+
         <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/AboutUs" element={<AboutUs/>} />
-        <Route path="/ContactUs"  element={<ContactUs/>}/>
-        <Route path="/Blogs" element={<Blogs/>} />
+        <Route path="/aboutus" element={<AboutUs/>} />
+        <Route path="/contactus"  element={<ContactUs/>}/>
+        <Route path="/blogs" element={<Blogs/>} />
 
-        <Route path="/Mangalsutra" element={<Mangalsutra/>} />
-        <Route path="/ChainPendants" element={<ChainPendants/>} />
-        <Route path="/Tops" element={<Tops/>} />
+        <Route path="/mangalsutra" element={<Mangalsutra/>} />
+        <Route path="/chainpendants" element={<ChainPendants/>} />
+        <Route path="/tops" element={<Tops/>} />
 
-        <Route path="/LatestCollection" element={<LatestCollection/>} />
-        <Route path="/BestOfBrea" element={<BestOfBrea/>} />
-        <Route path="/Gifting" element={<Gifting/>} />
+        <Route path="/latestcollection" element={<LatestCollection/>} />
+        <Route path="/bestofbrea" element={<BestOfBrea/>} />
+        <Route path="/gifting" element={<Gifting/>} />
 
         <Route path="/Terms_Conditions" element={<Terms_Conditions/>} />
         <Route path="/Shipping_Return_policy" element={<Shipping_Return_policy/>} />
