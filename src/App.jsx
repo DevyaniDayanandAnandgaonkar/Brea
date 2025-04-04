@@ -1,111 +1,57 @@
-import React from 'react'
-import Header from './Components/Header';
-import Home from './Components/Home';
-import Mangalsutra from './Components/Mangalsutra';
-import ChainPendants from './Components/ChainPendants';
-import Tops from './Components/Tops';
-import Blog from './Components/Blog'
-import Footer from './Components/Footer'
-import AboutUs from './Components/AboutUs'
-import ContactUs from './Components/ContactUs'
-import Terms_Conditions from './Components/Terms_Conditions';
-import Shipping_ReturnPolicy from './Components/Shipping_ReturnPolicy';
-import PrivacyPolicy from './Components/PrivacyPolicy';
-import BlogPage from "./Components/BlogPage";
-import ParentBlog from './Components/ParentBlog';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
+import Home from './Components/Home/Home';
+import AboutUs from './Components/AboutUs/AboutUs';
+import ContactUs from './Components/ContactUs/ContactUs'
+import Blogs from './Components/Blogs/Blogs'
+import Mangalsutra from './Components/Categories/Mangalsutra/Mangalsutra';
+import ChainPendants from './Components/Categories/ChainPendants/ChainPendants';
+import Tops from './Components/Categories/Tops/Tops'
+import LatestCollection from './Components/LatestCollection/LatestCollection'
+import BestOfBrea from './Components/BestOfBrea/BestOfBrea'
+import Gifting from './Components/Gifting/Gifting'
+
+import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy'
+import Shipping_Return_policy from './Components/Shipping&ReturnPolicy/Shipping_Return_policy'
+import Terms_Conditions from './Components/Terms_Conditions/Terms_Conditions'
+
 import "./App.css"
+import SingleBlogDisplay from './Components/Blogs/SingleBlog_display';
+import SingleProductDisplay from './Components/ProductsDisplayStructure/SingleProductDisplay';
 
-// import ProductsData from "./ProductsData.json";
-import { createBrowserRouter , RouterProvider} from 'react-router-dom';
-import BestOfBrea from './Components/BestOfBrea';
-import LatestCollection from './Components/LatestCollection';
-import Gifting from './Components/Gifting';
-import CategoriesHome from './Components/CategoriesHome'
-import ProductPage from './Components/ProductPage';
-// import { useState } from 'react';
-// import { CartContext } from './Context/cartContext';
+const App = () => {
+  return (
+    <Router>
+      <>
+        <Header />
+        <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/AboutUs" element={<AboutUs/>} />
+        <Route path="/ContactUs"  element={<ContactUs/>}/>
+        <Route path="/Blogs" element={<Blogs/>} />
 
+        <Route path="/Mangalsutra" element={<Mangalsutra/>} />
+        <Route path="/ChainPendants" element={<ChainPendants/>} />
+        <Route path="/Tops" element={<Tops/>} />
 
+        <Route path="/LatestCollection" element={<LatestCollection/>} />
+        <Route path="/BestOfBrea" element={<BestOfBrea/>} />
+        <Route path="/Gifting" element={<Gifting/>} />
 
-const App = () =>  {
-  
-    const router = createBrowserRouter([
-        {
-            path: "/",
-            element: <><Header /><Home />  <Footer /></>,
-        },
-        {
-            path: "/Mangalsutra",
-            element: <><Header /><Mangalsutra />  <Footer /></>,
-        },
-        {
-            path: "/ChainPendants",
-            element: <><Header /><ChainPendants /><Footer /></>,
-        },
-        {
-            path: "/Tops",
-            element: <><Header /><Tops />  <Footer /></>,
-        },
-        {
-            path: "/Blog",
-            element: <><Header /><Blog />  <Footer /></>
-        },
-        {
-            path: "/blog/:id",
-            element: <><Header /><BlogPage /> <Footer /></>,
-        },
-        {
-            path: "/AboutUs",
-            element: <><Header/><AboutUs/><Footer/></>
-        },
-        {
-            path: "/ContactUs",
-            element: <><Header/><ContactUs/><Footer/></>
-        },
-        {
-            path: "/Terms_Conditions",
-            element: <><Header/><Terms_Conditions/><Footer/></>
-        },
-        {
-            path : "/Shipping_ReturnPolicy",
-            element: <><Header/><Shipping_ReturnPolicy/><Footer/></>
-        },
-        {
-            path: "/PrivacyPolicy",
-            element: <><Header/><PrivacyPolicy/><Footer/></>
-        },
-        {
-            path: "/ParentBlog",
-            element: <><Header/><ParentBlog /><Footer/></>
-        },
-        {
-            path: "/BestOfBrea",
-            element: <><Header/><BestOfBrea /><Footer/></>
-        },
-        {
-            path: "/LatestCollection",
-            element: <><Header/><LatestCollection /><Footer/></>
-        },
-        {
-            path: "/Gifting",
-            element: <><Header/><Gifting /><Footer/></>
-        },
-        {
-            path: "/CategoriesHome",
-            element: <><CategoriesHome></CategoriesHome></>
-        },
-        {
-            path: "/product/:id",
-            element: <><ProductPage /></>
-        },
-       
-    ])
-    return (
-       <>
-       <RouterProvider router={router} />
-       
+        <Route path="/Terms_Conditions" element={<Terms_Conditions/>} />
+        <Route path="/Shipping_Return_policy" element={<Shipping_Return_policy/>} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>} />
+      
+        <Route path="/Blogs/:id" element={<SingleBlogDisplay></SingleBlogDisplay>}></Route>
+        <Route path="/product/:id" element={<SingleProductDisplay></SingleProductDisplay>}></Route>
+        </Routes>
 
-        </>
-    );
-}
-export default App
+        <Footer />
+      </>
+    </Router>
+  );
+};
+
+export default App;

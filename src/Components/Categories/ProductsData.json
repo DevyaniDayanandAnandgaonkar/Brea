@@ -1,0 +1,296 @@
+[
+{
+    "id": 1,
+    "Price": 1500,
+    "ProductName": "Bloomy Diamond Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Bloomy Diamond Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "silver",
+    "style": "everyDay"
+},
+{
+    "id": 2,
+    "Price": 1800,
+    "ProductName": "Flower with 2 green designed Silver Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Flower with 2 green designed Silver Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "silver",
+    "style": "everyDay",
+    "tag": "Best Seller"
+},
+{
+    "id": 3,
+    "Price": 1900,
+    "ProductName": "Heart and Infinity Interlocked Silver Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Heart and Infinity Interlocked Silver Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "silver",
+    "style": "everyDay"
+},
+{
+    "id": 4,
+    "Price": 2500,
+    "ProductName": "Oxidized Peacock Pendant Silver Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Oxidized Peacock Pendant Silver Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "oxidisedSilver",
+    "style": "office"
+},
+{
+    "id": 5,
+    "Price": 1999,
+    "ProductName": "Rose Gold Periwinkle Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Rose Gold Periwinkle Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "oxidisedSilver",
+    "style": "office",
+    "tag": "Best Seller"
+},
+{
+    "id": 6,
+    "Price": 2500,
+    "ProductName": "Silver Vivaah Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Silver Vivaah Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "oxidisedSilver",
+    "style": "office"
+},
+{
+    "id": 7,
+    "Price": 1599,
+    "ProductName": "Square Pendanant Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Square Pendanant Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "roseGold",
+    "style": "wedding"
+},
+{
+    "id": 8,
+    "Price": 1700,
+    "ProductName": "Sterling Silver Diamond Mangalsutra Pendant Chain",
+    "ProductImg": "/DhritiSilverMangalsutra/Sterling Silver Diamond Mangalsutra Pendant Chain.jpg",
+    "Category": "Mangalsutra",
+    "metal": "roseGold",
+    "style": "wedding"
+},
+{
+    "id": 9,
+    "Price": 4500,
+    "ProductName": "Two Rings Interconnected Silver Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Two Rings Interconnected Silver Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "roseGold",
+    "style": "wedding",
+    "tag": "Just Arrived" 
+},
+{
+    "id": 10,
+    "Price": 3500,
+    "ProductName": "Zirconia Elegance Mangalsutra",
+    "ProductImg": "/DhritiSilverMangalsutra/Zirconia Elegance Mangalsutra.jpg",
+    "Category": "Mangalsutra",
+    "metal": "roseGold",
+    "style": "wedding"
+}
+,
+{
+    "id": 11,
+    "Price": 1200,
+    "ProductName": "Rose Gold Classic Rose chain",
+    "ProductImg": "/DhritiSilverChainPendants/Rose Gold Classic Rose chain.jpg",
+    "Category": "ChainPendants",
+    "metal": "silver",
+    "style": "everyDay",
+    "tag": "Best Seller"
+   
+},
+{
+    "id": 12,
+    "Price": 1400,
+    "ProductName": "Rose Gold Flower Pendant With Link Chain",
+    "ProductImg": "/DhritiSilverChainPendants/Rose Gold Flower Pendant With Link Chain.jpg",
+    "Category": "ChainPendants",
+    "metal": "silver",
+    "style": "everyDay"
+},
+{
+    "id": 13,
+    "Price": 1800,
+    "ProductName": "Rose Gold Pea Flower Pendant with Link Chain",
+    "ProductImg": "/DhritiSilverChainPendants/Rose Gold Pea Flower Pendant with Link Chain.jpg",
+    "Category": "ChainPendants",
+    "metal": "silver",
+    "style": "everyDay",
+    "tag": "Best Seller" 
+},
+{
+    "id": 14,
+    "Price": 1100,
+    "ProductName": "Silver 3 Hearts Chain",
+    "ProductImg": "/DhritiSilverChainPendants/Silver 3 Hearts Chain.jpg",
+    "Category": "ChainPendants",
+    "metal": "oxidisedSilver",
+    "style": "office",
+    "tag": "Best Seller" 
+},
+{
+    "id": 15,
+    "Price": 3300,
+    "ProductName": "Silver Blooming Flora Necklace",
+    "ProductImg": "/DhritiSilverChainPendants/Silver Blooming Flora Necklace.jpg",
+    "Category": "ChainPendants",
+    "metal": "oxidisedSilver",
+    "style": "office",
+    "tag": "Best Seller" 
+},
+{
+    "id": 16,
+    "Price": 3200,
+    "ProductName": "Silver Floral Diamond Pendant",
+    "ProductImg": "/DhritiSilverChainPendants/Silver Floral Diamond Pendant.jpg",
+    "Category": "ChainPendants",
+    "metal": "oxidisedSilver",
+    "style": "office",
+    "tag": "Just Arrived" 
+},
+{
+    "id": 17,
+    "Price": 3100,
+    "ProductName": "Silver Heart Interlocked Necklace",
+    "ProductImg": "/DhritiSilverChainPendants/Silver Heart Interlocked Necklace.jpg",
+    "Category": "ChainPendants",
+    "metal": "roseGold",
+    "style": "wedding"
+},
+{
+    "id": 18,
+    "Price": 3500,
+    "ProductName": "Silver Love Like A Butterfly Pendant",
+    "ProductImg": "/DhritiSilverChainPendants/Silver Love Like A Butterfly Pendant.jpg",
+    "Category": "ChainPendants",
+    "metal": "roseGold",
+    "style": "wedding" 
+},
+{
+    "id": 19,
+    "Price": 2500,
+    "ProductName": "Silver Peary Love Pendant with Linked Chain",
+    "ProductImg": "/DhritiSilverChainPendants/Silver Peary Love Pendant with Linked Chain.jpg",
+    "Category": "ChainPendants",
+    "metal": "roseGold",
+    "style": "wedding",
+    "tag": "Just Arrived" 
+},
+{
+    "id": 20,
+    "Price": 1500,
+    "ProductName": "Silver Studded Infinity Pendant",
+    "ProductImg": "/DhritiSilverChainPendants/Silver Studded Infinity Pendant.jpg",
+    "Category": "ChainPendants",
+    "metal": "silver",
+    "style": "wedding",
+    "tag": "Just Arrived" 
+
+},
+{
+    "id": 21,
+    "Price": 2500,
+    "ProductName": "925 Silver Oxidized Jhumki",
+    "ProductImg": "/DhritiSilverTops/925 Silver Oxidized Jhumki.jpg",
+    "Category": "Tops",
+    "metal": "silver",
+    "style": "everyDay",
+    "tag": "Best Seller" 
+},
+{
+    "id": 22,
+    "Price": 4500,
+    "ProductName": "Classic Earring Jhumki 925 Silver",
+    "ProductImg": "/DhritiSilverTops/Classic Earring Jhumki 925 Silver.jpg",
+    "Category": "Tops",
+    "metal": "silver",
+    "style": "everyDay",
+    "tag": "Best Seller" 
+},
+{
+    "id": 23,
+    "Price": 3500,
+    "ProductName": "Daizy Tops (Silver)",
+    "ProductImg": "/DhritiSilverTops/Daizy Tops (Silver).jpg",
+    "Category": "Tops",
+    "metal": "roseGold",
+    "style": "everyDay",
+    "tag": "Best Seller" 
+},
+{
+    "id": 24,
+    "Price": 1800,
+    "ProductName": "Diamond Blossom Earrings",
+    "ProductImg": "/DhritiSilverTops/Diamond Blossom Earrings.jpg",
+    "Category": "Tops",
+    "metal": "roseGold",
+    "style": "office",
+    "tag": "Best Seller" 
+},
+{
+    "id": 25,
+    "Price": 1599,
+    "ProductName": "Elegant Fallig Silver Gemstones Tops",
+    "ProductImg": "/DhritiSilverTops/Elegant Fallig Silver Gemstones Tops.jpg",
+    "Category": "Tops",
+    "metal": "roseGold",
+    "style": "office",
+    "tag": "Best Seller" 
+},
+{
+    "id": 26,
+    "Price": 3200,
+    "ProductName": "Geometric Butterfly Tops (Silver)",
+    "ProductImg": "/DhritiSilverTops/Geometric Butterfly Tops (Silver).jpg",
+    "Category": "Tops",
+    "metal": "roseGold",
+    "style": "office",
+    "tag": "Just Arrived" 
+},
+{
+    "id": 27,
+    "Price": 1900,
+    "ProductName": "Oxidized Silver Black Jhumki",
+    "ProductImg": "/DhritiSilverTops/Oxidized Silver Black Jhumki.jpg",
+    "Category": "Tops",
+    "metal": "roseGold",
+    "style": "wedding",
+    "tag": "Just Arrived" 
+},
+{
+    "id": 28,
+    "Price": 2500,
+    "ProductName": "Oxidized silver Jhumki",
+    "ProductImg": "/DhritiSilverTops/Oxidized silver Jhumki.jpg",
+    "Category": "Tops",
+    "metal": "roseGold",
+    "style": "wedding",
+    "tag": "Just Arrived" 
+},
+{
+    "id": 29,
+    "Price": 1200,
+    "ProductName": "Rose Gold & Moonstone Drop Earrings",
+    "ProductImg": "/DhritiSilverTops/Rose Gold & Moonstone Drop Earrings.jpg",
+    "Category": "Tops",
+    "metal": "roseGold",
+    "style": "wedding",
+    "tag": "Just Arrived" 
+},
+{
+    "id": 30,
+    "Price": 3500,
+    "ProductName": "Silver Oxidized with pink stones Jhumki",
+    "ProductImg": "/DhritiSilverTops/Silver Oxidized with pink stones Jhumki.jpg",
+    "Category": "Tops",
+    "metal": "roseGold",
+    "style": "wedding",
+    "tag": "Just Arrived" 
+}
+
+]
